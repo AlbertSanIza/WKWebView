@@ -721,6 +721,9 @@
                             </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="7gK-Bm-VOG" id="kfO-qi-m0D"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
