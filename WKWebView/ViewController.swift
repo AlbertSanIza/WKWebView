@@ -14,5 +14,8 @@ class ViewController: NSViewController {
         didSet {
         }
     }
+    func myRequest(url: String) -> URLRequest {
+        return URLRequest(url: URL(string: url)!)
+    }
 }
 
